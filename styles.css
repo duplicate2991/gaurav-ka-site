@@ -35,7 +35,7 @@ body {
 
 /* Happy Holi Text Animation */
 .holi-text {
-    font-size: 5rem;
+    font-size: 3rem;
     font-weight: 900;
     margin-bottom: 2rem;
     display: flex;
@@ -90,6 +90,23 @@ body {
     color: #8BC34A; /* Light Green */
     animation-delay: 0.8s;
 }
+.letter:nth-child(11) {
+    color: #FF5252; /* Red */
+    animation-delay: 0s;
+}
+.letter:nth-child(12) {
+    color: #FFC107; /* Yellow */
+    animation-delay: 0.1s;
+}
+.letter:nth-child(13) {
+    color: #4CAF50; /* Green */
+    animation-delay: 0.2s;
+}
+.letter:nth-child(14) {
+    color: #2196F3; /* Blue */
+    animation-delay: 0.3s;
+}
+
 
 /* Reveal Button */
 .reveal-btn {
